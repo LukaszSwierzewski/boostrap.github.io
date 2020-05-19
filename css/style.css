@@ -4,6 +4,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@media (min-width: 1500px) {
+.container {
+    max-width: 1440px;
+}
+}
 .mynav {
   background: #c7d2df;
   padding: 0px;
