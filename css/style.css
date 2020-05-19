@@ -19,9 +19,9 @@ body {
 .nav-item:hover {
  background-color: #e5e9f2; 
 }
-.nav-item:hover a {
+/* .nav-item:hover a {
  text-decoration: underline;
-}
+} */
 .mynav-logo {
   background: #8291a3;
   color: white;
