@@ -88,11 +88,12 @@ h1 {
   .gap-big {
     border: none;
   }
-}
-@media (max-width: 767px) {
-  h1 {
+   h1 {
     margin-top: 5vh;
   }
+}
+@media (max-width: 767px) {
+ 
   .mynav-logo {
     margin: 10px 5px;
   }
