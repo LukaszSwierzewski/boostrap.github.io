@@ -187,8 +187,13 @@ footer {
   border: none;
   text-align: center;
   border-radius: 5px;
+  transition: 0.2s;
 }
-
+.btn-cta:hover {
+ background: #8291a3;
+ color: white; 
+  
+}
 .fab {
   color: white;
   margin: 0.2rem;
