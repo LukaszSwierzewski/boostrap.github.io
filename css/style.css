@@ -13,6 +13,9 @@ body {
   background: #c7d2df;
   padding: 0px;
 }
+.nav-item {
+ transition: 0.2s; 
+}
 .nav-item:hover {
  background-color: #e5e9f2; 
 }
