@@ -1,0 +1,137 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif; }
+
+.mynav {
+  background: #c7d2df;
+  padding: 0px; }
+  .mynav-logo {
+    background: #8291a3;
+    color: white;
+    border-radius: 5px;
+    margin-left: 2rem;
+    padding: 0.3rem 2rem; }
+  .mynav-menu li {
+    padding: 0.5rem 1.5rem; }
+  .mynav-menu li a {
+    color: #8291a3; }
+  .mynav-cart {
+    background: #47525e;
+    border-radius: 5px;
+    margin-right: 2rem;
+    padding: 0.3rem 2rem; }
+  .mynav a {
+    text-decoration: none;
+    color: white; }
+
+.active {
+  background-color: #e5e9f2; }
+
+.aside {
+  background-color: #c7d2df;
+  border-radius: 5px;
+  min-height: 300px; }
+
+.content-mt {
+  margin-top: 10vh; }
+
+.gap {
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip: padding-box; }
+
+.gap-big {
+  box-sizing: border-box;
+  border-right: 2rem solid transparent;
+  background-clip: padding-box; }
+
+.content-img {
+  background-color: #e5e9f2;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px; }
+
+.content-headline {
+  margin: 1rem 0px;
+  font-size: 25px; }
+
+@media (max-width: 767px) {
+  .gap {
+    border: none; }
+  .gap-big {
+    border: none; }
+  h1 {
+    margin-top: 5vh; }
+  .mynav-logo {
+    margin: 10px 5px; }
+  .mynav-cart {
+    border-radius: 0px;
+    margin: 0px; }
+  .footer-first {
+    padding: 0px 15px !important; }
+  .btn-cta {
+    display: block;
+    width: 100% !important;
+    margin-top: 1vh; }
+  .newsletter-input {
+    width: 100% !important; }
+  .newsletter-input::placeholder {
+    text-align: center; }
+  .newsletter {
+    text-align: center;
+    margin-top: 5vh; }
+  .socials {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .footer-logo {
+    width: 50% !important; } }
+
+footer {
+  background: #47525e;
+  margin-top: 5vh; }
+
+.footer {
+  margin: 6vh 0vh; }
+  .footer-first {
+    padding-left: 0px; }
+  .footer-links {
+    list-style: none;
+    padding: 0px; }
+    .footer-links a {
+      color: white;
+      margin: 2rem 0rem; }
+    .footer-links li {
+      margin: 0.5rem 0rem; }
+  .footer-logo {
+    background: #8291a3;
+    padding: 1rem 0rem;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; }
+
+.newsletter-headline {
+  color: white;
+  font-size: 1.5rem; }
+
+.newsletter-input {
+  padding: 0.5rem 0rem;
+  width: 65%;
+  border-radius: 5px;
+  border: none;
+  text-indent: 10px; }
+
+.btn-cta {
+  padding: 0.5rem 0rem;
+  width: 33%;
+  border: none;
+  text-align: center;
+  border-radius: 5px; }
+
+.fab {
+  color: white;
+  margin: 0.2rem; }
+
+.socials {
+  margin-top: 1rem; }
